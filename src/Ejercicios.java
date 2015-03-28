@@ -1,32 +1,25 @@
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 
 public class Ejercicios {
 	
-	//Devuelve true si todos los elementos de 'mi_lista' son pares, de lo contrario devuelve false
+	//Devuelve true si todos los elementos de mi_lista (dada) son pares, de lo contrario devuelve false
 	static boolean sonPares(ArrayList<Integer> mi_lista)
 	{
 		return false;
 	}
 	
-	//Devuelve el numero menor almacenado en 'mi_lista'
-	static int getMenor(ArrayList<Integer> mi_lista)
+	//Escribe n1, n2 y n3 (dados) en un archivo con nombre nombre_archivo (dado) separados por espacios
+	static void escribir3Numeros(String nombre_archivo,int n1, int n2,int n3)
 	{
-		return -1;
 	}
 	
-	//Devuelve el numero menor de un archivo
-	//Dado, el archivo unicamente contiene enteros
-	static int getNumeroMayor(String nombre_archivo)
+	//Devuelve true si el archivo con nombre nombre_archivo (dado) contiene al menos 2 palabras repetidas
+	static boolean existenRepetidas(String nombre_archivo)
 	{
-		return -1;
-	}
-	
-	//Devuelve cuantas veces existe la string buscada en el archivo con nombre nombre_archivo
-	static int cuantasVecesExiste(String nombre_archivo, String buscada)
-	{
-		return -1;
+		return false;
 	}
 }
